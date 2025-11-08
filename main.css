@@ -1,0 +1,54 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, #0ed2f0, #f00e0e, #f7af14, #be15e8, #3289a8, #17e335, #e6c81e, #34ebd2, #a834eb, #13e82b, #e81384, #c4b193, #e8c607, #7649de, #4cde49);
+}
+
+.header {
+    background-color: chocolate;
+    padding: 20px;
+}
+
+.header h1 {
+    color: firebrick;
+}
+
+.header button {
+    width: 20%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: burlywood;
+}
+
+.note {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.editable {
+    background-color: coral;
+    height: 170px;
+    border-radius: 10px;
+    max-height: 170px;
+    overflow-y: scroll;
+}
+
+.toolbar {
+    text-align: right;
+    background-color: darkred;
+    border: solid 5px black;
+}
+
+.close {
+    color: darkkhaki;
+    margin-right: 10px;
+    cursor: pointer;
+}
